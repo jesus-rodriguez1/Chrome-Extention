@@ -13,7 +13,7 @@
         "<all_urls>"
       ],
       "css": ["popup.css"],
-      "js": ["jquery-3.2.1.min.js", "content.js", "change.js"]
+      "js": ["jquery-3.2.1.min.js", "change.js"]
     }
   ],
 
