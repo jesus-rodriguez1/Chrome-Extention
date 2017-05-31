@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-  "name": "Chrome Extenion",
+  "name": "Chrome Extension",
   "description": "This extension will open a tab and change the HtML/ CSS",
   "version": "1.0",
     "background": {
@@ -10,13 +10,12 @@
   "content_scripts": [
     {
       "matches": [
-        "<all_urls>"
+  "https://powerschool.noblenetwork.org/public/"
       ],
       "css": ["popup.css"],
-      "js": ["jquery-3.2.1.min.js", "change.js"]
+      "js": ["jquery-3.2.1.min.js"]
     }
   ],
-
   "browser_action": {
    "default_icon": "icon.png",
    "default_popup": "popup.html"
