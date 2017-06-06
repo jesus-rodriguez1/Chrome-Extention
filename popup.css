@@ -21,3 +21,16 @@ h1{
     font-family: cursive;
     color: red;
 }
+
+#tabs ui-tabs ui-widget ui-widget-content ui-corner-all{
+    background-color: blue; 
+    color: blue;
+}
+
+p{
+    color: blue;
+}
+
+tr{
+    color: aqua;
+}
