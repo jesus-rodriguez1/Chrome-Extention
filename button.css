@@ -2,3 +2,9 @@
     color: blue; 
     font-family: Barrio; 
 }
+
+body {
+    background-image: url("spiderman.png");
+    background-color: #cccccc;
+}
+
